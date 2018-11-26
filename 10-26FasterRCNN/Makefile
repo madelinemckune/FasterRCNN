@@ -1,4 +1,4 @@
-project = presentation
+project = FasterRCNN
 
 project : $(project).tex 
 	xelatex -shell-escape $(project)
